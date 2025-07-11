@@ -1,56 +1,46 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me" # 页面的标题，显示在浏览器标签页和页面顶部
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<br>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+**[在这里放你之前生成的个人描述，选择你最喜欢的那个版本。例如：]**
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Doctoral researcher in Computational Chemistry with a distinguished academic background (GPA 3.7/4.0, ranking 1/28 at Bachelor's, multiple scholarships). My expertise lies in applying advanced theoretical calculation techniques (DFT, VASP) and data analysis skills (Python) to investigate fundamental scientific problems, such as helium migration in zirconolite. A proactive and resourceful individual with a track record of independent research, international collaboration (e.g., Khalifa University), and effective problem-solving in complex chemical systems.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Research Interests
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**[根据你的CV (CV_new.docx) 和 Special Issue 的内容，列出你的具体研究兴趣。以下是一些建议，你可以根据重要性调整顺序和具体描述：]**
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* [cite_start]**Computational Materials Science**: Focusing on Density Functional Theory (DFT) simulations for understanding and predicting properties of novel materials, particularly in energy and nuclear applications[cite: 99, 104].
+* [cite_start]**Nuclear Wasteform Integrity**: Investigating helium migration and diffusion in materials like zirconolite crucial for long-term nuclear waste storage through atomistic simulations[cite: 99, 100, 101].
+* [cite_start]**Catalysis and Reaction Mechanisms**: Applying computational methods to explore CO2 hydrogenation, reverse water gas shift reactions, and activity regulation of metal oxide catalysts[cite: 103, 104, 105, 118, 119, 120].
+* [cite_start]**AI-Empowered Materials Discovery**: Leveraging advanced computational techniques for inverse design, generative models, and multimodal learning in materials and device innovation[cite: 73, 74, 75, 76].
+* [cite_start]**Data Analysis & Scientific Computing**: Utilizing Python and SQL for microkinetic analysis, data visualization, and solving differential algebraic equations in chemical systems[cite: 56, 58, 105, 113, 114].
+* [cite_start]**CO2 Capture and Separation**: Molecular simulation studies on MOF adsorbents for enhanced CO2 capture efficiency[cite: 107, 108, 109].
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+---
 
-**Markdown generator**
+## News & Updates
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+**[在这里列出你的重要事件，从最近的开始。你可以从你的CV中提取关键信息，例如：]**
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* [cite_start]**June 2025**: Presented a poster at the 30th Rare Earth Research Conference (RERC30) in Chicago, USA[cite: 63, 141].
+* [cite_start]**May 2025**: Began role as a Lab Technician at Eradivir, contributing to the Oncology Team's research, including cell culture and protein binding tests[cite: 44, 48, 50].
+* [cite_start]**Jan 2025**: Commenced Undergraduate Research Assistant positions at Purdue's Andrews lab (bandgap engineering in chalcogenides) [cite: 26, 29] [cite_start]and Low lab (cancer research, peptide synthesis)[cite: 36, 39].
+* [cite_start]**Sep 2024**: Appointed as a Graduate Teaching Assistant (GTA) at the University of Manchester for "CHEM10600 Python Exercise" and "Gaussian Lab Training"[cite: 111, 113, 115].
+* [cite_start]**July 2024**: Presented a poster at the 30th Materials Chemistry Consortium (MCC) Annual Meeting in Daresbury, UK[cite: 142].
+* [cite_start]**Sep 2022**: Started Ph.D. in Computational Chemistry at the University of Manchester with a fully funded scholarship[cite: 85, 86, 87].
+* [cite_start]**June 2022**: Completed Master of Engineering in Chemical Technology from Tianjin University with excellent GPA and scholarships[cite: 88, 89, 90].
+* [cite_start]**June 2021**: Co-authored a Cover Article in The Journal of Physical Chemistry C[cite: 132, 133].
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+**[你可以继续添加你认为重要的事件，比如获得奖项，发表其他文章，参加重要的会议等等。]**
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+---
